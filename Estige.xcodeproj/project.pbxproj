@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36CE10341AF902F1005FB10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE10331AF902F1005FB10A /* AppDelegate.swift */; };
+		36CE10371AF902F1005FB10A /* Estige.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36CE10351AF902F1005FB10A /* Estige.xcdatamodeld */; };
+		36CE103E1AF902F1005FB10A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36CE103D1AF902F1005FB10A /* Images.xcassets */; };
+		36CE10411AF902F1005FB10A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CE103F1AF902F1005FB10A /* LaunchScreen.xib */; };
+		36CE104D1AF902F1005FB10A /* EstigeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE104C1AF902F1005FB10A /* EstigeTests.swift */; };
+		36CE105D1AF9032D005FB10A /* Login Website in Resources */ = {isa = PBXBuildFile; fileRef = 36CE10561AF9032D005FB10A /* Login Website */; };
+		36CE105E1AF9032D005FB10A /* LoginVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE10571AF9032D005FB10A /* LoginVCViewController.swift */; };
+		36CE105F1AF9032D005FB10A /* PrivacyPolicy.docx in Resources */ = {isa = PBXBuildFile; fileRef = 36CE10581AF9032D005FB10A /* PrivacyPolicy.docx */; };
+		36CE10601AF9032D005FB10A /* PrivacyPolicy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 36CE10591AF9032D005FB10A /* PrivacyPolicy.pdf */; };
+		36CE10611AF9032D005FB10A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE105A1AF9032D005FB10A /* SignUpVC.swift */; };
+		36CE10621AF9032D005FB10A /* TermsandAgreementVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE105B1AF9032D005FB10A /* TermsandAgreementVC.swift */; };
+		36CE10631AF9032D005FB10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CE105C1AF9032D005FB10A /* ViewController.swift */; };
+		36CE10661AF90378005FB10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36CE10641AF90378005FB10A /* Main.storyboard */; };
+		36CE10671AF90378005FB10A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CE10651AF90378005FB10A /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36CE10471AF902F1005FB10A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36CE10261AF902F1005FB10A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36CE102D1AF902F1005FB10A;
+			remoteInfo = Estige;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36CE102E1AF902F1005FB10A /* Estige.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estige.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CE10321AF902F1005FB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CE10331AF902F1005FB10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36CE10361AF902F1005FB10A /* Estige.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Estige.xcdatamodel; sourceTree = "<group>"; };
+		36CE103D1AF902F1005FB10A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		36CE10401AF902F1005FB10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		36CE10461AF902F1005FB10A /* EstigeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstigeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		36CE104B1AF902F1005FB10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36CE104C1AF902F1005FB10A /* EstigeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstigeTests.swift; sourceTree = "<group>"; };
+		36CE10561AF9032D005FB10A /* Login Website */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Login Website"; sourceTree = "<group>"; };
+		36CE10571AF9032D005FB10A /* LoginVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVCViewController.swift; sourceTree = "<group>"; };
+		36CE10581AF9032D005FB10A /* PrivacyPolicy.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = PrivacyPolicy.docx; sourceTree = "<group>"; };
+		36CE10591AF9032D005FB10A /* PrivacyPolicy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = PrivacyPolicy.pdf; sourceTree = "<group>"; };
+		36CE105A1AF9032D005FB10A /* SignUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		36CE105B1AF9032D005FB10A /* TermsandAgreementVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsandAgreementVC.swift; sourceTree = "<group>"; };
+		36CE105C1AF9032D005FB10A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36CE10641AF90378005FB10A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		36CE10651AF90378005FB10A /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CE102B1AF902F1005FB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CE10431AF902F1005FB10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36CE10251AF902F1005FB10A = {
+			isa = PBXGroup;
+			children = (
+				36CE10561AF9032D005FB10A /* Login Website */,
+				36CE10571AF9032D005FB10A /* LoginVCViewController.swift */,
+				36CE10581AF9032D005FB10A /* PrivacyPolicy.docx */,
+				36CE10591AF9032D005FB10A /* PrivacyPolicy.pdf */,
+				36CE105A1AF9032D005FB10A /* SignUpVC.swift */,
+				36CE105B1AF9032D005FB10A /* TermsandAgreementVC.swift */,
+				36CE105C1AF9032D005FB10A /* ViewController.swift */,
+				36CE10301AF902F1005FB10A /* Estige */,
+				36CE10491AF902F1005FB10A /* EstigeTests */,
+				36CE102F1AF902F1005FB10A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36CE102F1AF902F1005FB10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36CE102E1AF902F1005FB10A /* Estige.app */,
+				36CE10461AF902F1005FB10A /* EstigeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CE10301AF902F1005FB10A /* Estige */ = {
+			isa = PBXGroup;
+			children = (
+				36CE10641AF90378005FB10A /* Main.storyboard */,
+				36CE10651AF90378005FB10A /* LaunchScreen.xib */,
+				36CE10331AF902F1005FB10A /* AppDelegate.swift */,
+				36CE103D1AF902F1005FB10A /* Images.xcassets */,
+				36CE103F1AF902F1005FB10A /* LaunchScreen.xib */,
+				36CE10351AF902F1005FB10A /* Estige.xcdatamodeld */,
+				36CE10311AF902F1005FB10A /* Supporting Files */,
+			);
+			path = Estige;
+			sourceTree = "<group>";
+		};
+		36CE10311AF902F1005FB10A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36CE10321AF902F1005FB10A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36CE10491AF902F1005FB10A /* EstigeTests */ = {
+			isa = PBXGroup;
+			children = (
+				36CE104C1AF902F1005FB10A /* EstigeTests.swift */,
+				36CE104A1AF902F1005FB10A /* Supporting Files */,
+			);
+			path = EstigeTests;
+			sourceTree = "<group>";
+		};
+		36CE104A1AF902F1005FB10A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				36CE104B1AF902F1005FB10A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36CE102D1AF902F1005FB10A /* Estige */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CE10501AF902F1005FB10A /* Build configuration list for PBXNativeTarget "Estige" */;
+			buildPhases = (
+				36CE102A1AF902F1005FB10A /* Sources */,
+				36CE102B1AF902F1005FB10A /* Frameworks */,
+				36CE102C1AF902F1005FB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Estige;
+			productName = Estige;
+			productReference = 36CE102E1AF902F1005FB10A /* Estige.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36CE10451AF902F1005FB10A /* EstigeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36CE10531AF902F1005FB10A /* Build configuration list for PBXNativeTarget "EstigeTests" */;
+			buildPhases = (
+				36CE10421AF902F1005FB10A /* Sources */,
+				36CE10431AF902F1005FB10A /* Frameworks */,
+				36CE10441AF902F1005FB10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36CE10481AF902F1005FB10A /* PBXTargetDependency */,
+			);
+			name = EstigeTests;
+			productName = EstigeTests;
+			productReference = 36CE10461AF902F1005FB10A /* EstigeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36CE10261AF902F1005FB10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					36CE102D1AF902F1005FB10A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					36CE10451AF902F1005FB10A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 36CE102D1AF902F1005FB10A;
+					};
+				};
+			};
+			buildConfigurationList = 36CE10291AF902F1005FB10A /* Build configuration list for PBXProject "Estige" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36CE10251AF902F1005FB10A;
+			productRefGroup = 36CE102F1AF902F1005FB10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36CE102D1AF902F1005FB10A /* Estige */,
+				36CE10451AF902F1005FB10A /* EstigeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36CE102C1AF902F1005FB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE105D1AF9032D005FB10A /* Login Website in Resources */,
+				36CE105F1AF9032D005FB10A /* PrivacyPolicy.docx in Resources */,
+				36CE10601AF9032D005FB10A /* PrivacyPolicy.pdf in Resources */,
+				36CE10671AF90378005FB10A /* LaunchScreen.xib in Resources */,
+				36CE10661AF90378005FB10A /* Main.storyboard in Resources */,
+				36CE10411AF902F1005FB10A /* LaunchScreen.xib in Resources */,
+				36CE103E1AF902F1005FB10A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CE10441AF902F1005FB10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36CE102A1AF902F1005FB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE10621AF9032D005FB10A /* TermsandAgreementVC.swift in Sources */,
+				36CE10371AF902F1005FB10A /* Estige.xcdatamodeld in Sources */,
+				36CE10341AF902F1005FB10A /* AppDelegate.swift in Sources */,
+				36CE10631AF9032D005FB10A /* ViewController.swift in Sources */,
+				36CE10611AF9032D005FB10A /* SignUpVC.swift in Sources */,
+				36CE105E1AF9032D005FB10A /* LoginVCViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36CE10421AF902F1005FB10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CE104D1AF902F1005FB10A /* EstigeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36CE10481AF902F1005FB10A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36CE102D1AF902F1005FB10A /* Estige */;
+			targetProxy = 36CE10471AF902F1005FB10A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36CE103F1AF902F1005FB10A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36CE10401AF902F1005FB10A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36CE104E1AF902F1005FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		36CE104F1AF902F1005FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36CE10511AF902F1005FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Estige/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		36CE10521AF902F1005FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Estige/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		36CE10541AF902F1005FB10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EstigeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estige.app/Estige";
+			};
+			name = Debug;
+		};
+		36CE10551AF902F1005FB10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EstigeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Estige.app/Estige";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36CE10291AF902F1005FB10A /* Build configuration list for PBXProject "Estige" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE104E1AF902F1005FB10A /* Debug */,
+				36CE104F1AF902F1005FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36CE10501AF902F1005FB10A /* Build configuration list for PBXNativeTarget "Estige" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE10511AF902F1005FB10A /* Debug */,
+				36CE10521AF902F1005FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		36CE10531AF902F1005FB10A /* Build configuration list for PBXNativeTarget "EstigeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36CE10541AF902F1005FB10A /* Debug */,
+				36CE10551AF902F1005FB10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36CE10351AF902F1005FB10A /* Estige.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36CE10361AF902F1005FB10A /* Estige.xcdatamodel */,
+			);
+			currentVersion = 36CE10361AF902F1005FB10A /* Estige.xcdatamodel */;
+			path = Estige.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36CE10261AF902F1005FB10A /* Project object */;
+}
